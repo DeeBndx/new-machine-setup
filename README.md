@@ -5,9 +5,11 @@ Useful for onboarding new people, and getting up to speed quickly after a system
 
 ## How to use
 
-Run the `install_programs` script using powershell.
+Open the `install_programs` in a text editor, and add the IDs of packages you want to install via WinGet.
 
-## Included programs/apps:
+When finished run the `install_programs` script using powershell.
+
+## Default programs/apps:
 - WinGet: package manager that let's this whole thing run
 - Microsoft Office: for handling docs
 - Microsoft Outlook: for Email and Calendar
