@@ -5,7 +5,7 @@ Useful for onboarding new people, and getting up to speed quickly after a system
 
 ## How to use
 
-Open the script file you want to use in a text editor, and add the IDs of packages you want to install via WinGet.
+Open the script file you want to use in a text editor, and add the IDs of packages you want to install via WinGet. If WinGet is not available, the script attempts to register or install it automatically. This requires an internet connection and access to the PowerShell Gallery if App Installer is not already installed.
 
 When finished run the script file using powershell.
 
