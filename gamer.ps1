@@ -1,14 +1,8 @@
 param(
     [string[]]$PackageIds = @(
-        'Microsoft.Office'
-        'Microsoft.Outlook'
-        'Microsoft.VisualStudio.2022.Community'
-        'Git.Git'
-        'Microsoft.VisualStudioCode'
-        'Microsoft.SQLServerManagementStudio'
-        'OpenJS.NodeJS.LTS'
-        'SlackTechnologies.Slack'
-        'Notion.Notion'
+        'Discord.Discord'
+        'Valve.Steam'
+        'Spotify.Spotify'
     )
 )
 
@@ -26,4 +20,4 @@ foreach ($packageId in $PackageIds) {
     } else {
         Write-Host "$packageId is already installed. Skipping."
     }
-}
+@
