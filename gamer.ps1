@@ -2,7 +2,9 @@ param(
     [string[]]$PackageIds = @(
         'Discord.Discord'
         'Valve.Steam'
+        'GOG.Galaxy'
         'Spotify.Spotify'
+        'Brave.Brave'
     )
 )
 
@@ -20,4 +22,3 @@ foreach ($packageId in $PackageIds) {
     } else {
         Write-Host "$packageId is already installed. Skipping."
     }
-@
